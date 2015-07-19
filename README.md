@@ -3,6 +3,7 @@
 
 nginx.conf配置：
 
+---------------------------------------
 thread_pool app threads=10;
 
 stream {
@@ -15,3 +16,4 @@ stream {
         client_timeout 30;         
     }
 }
+---------------------------------------
