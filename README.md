@@ -4,7 +4,7 @@
 nginx.conf配置：
 
 ---------------------------------------
-thread_pool app threads=10;
+	thread_pool app threads=10;
 
 	stream {
 		server {
